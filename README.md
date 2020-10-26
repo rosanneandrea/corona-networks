@@ -1,1 +1,1 @@
-# corona-networks
+# Applicability of phylogenetic networks to coronavirus data
