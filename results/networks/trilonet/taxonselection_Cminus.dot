@@ -1,0 +1,14 @@
+digraph /home/rosanne/documents/minor_research_project/results/trilonet/corona_edited_seqsel10
+{
+"n5"[shape=point];"n4"[shape=point];"MT040334_PCoV_GX_P1E"[shape=box];"n3"[shape=point];"MT121216_Pangolin_MP789"[shape=box];"n2"[shape=point];"MN908947_Wuhan_Hu_1"[shape=box];"MN996532_Bat_RaTG13"[shape=box];"n1"[shape=point];"DQ022305_HKU3_1"[shape=box];"NC_004718"[shape=box];
+"n5"->"n4"
+"n5"->"n1"
+"n4"->"MT040334_PCoV_GX_P1E"
+"n4"->"n3"
+"n3"->"MT121216_Pangolin_MP789"
+"n3"->"n2"
+"n2"->"MN908947_Wuhan_Hu_1"
+"n2"->"MN996532_Bat_RaTG13"
+"n1"->"DQ022305_HKU3_1"
+"n1"->"NC_004718"
+}

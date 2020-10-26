@@ -1,0 +1,56 @@
+Processing file 0/1: ../../data/a_genes_seqsel9_BS_rooted_len0.01_supp90_binary.tree
+Reduce to 2 instances
+trying 0
+trying 1
+Took 0.00147323 seconds
+No solution
+
+Processing file 0/1: ../../data/a_genes_seqsel9_BS_rooted_len0.01_supp90_binary.tree
+Reduce to 2 instances
+
+maxTemporalDistance=0
+
+trying 0
+trying 1
+
+maxTemporalDistance=1
+
+trying 0
+trying 1
+trying 2
+
+maxTemporalDistance=2
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+
+maxTemporalDistance=3
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+trying 7
+
+maxTemporalDistance=4
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+
+maxTemporalDistance=0
+
+trying 0
+Took 0.519202 seconds
+Solution found for k=5 and p=4

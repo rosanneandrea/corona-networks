@@ -1,0 +1,22 @@
+Processing file 0/1: ../../data/a_blocks_seqsel7_BS_rooted_len0.01_supp70_binary.tree
+Reduce to 1 instances
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+Took 0.00721316 seconds
+Solution found for k=4 and p=0
+
+Processing file 0/1: ../../data/a_blocks_seqsel7_BS_rooted_len0.01_supp70_binary.tree
+Reduce to 1 instances
+
+maxTemporalDistance=0
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+Took 0.00501868 seconds
+Solution found for k=4 and p=0

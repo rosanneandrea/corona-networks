@@ -1,0 +1,81 @@
+Number of Taxa: 7
+ORIGINAL SEQUENCES LENGTH =  27741
+
+
+CLEANED SEQUENCES LENGTH = 27428
+Number of taxa: 7
+Vertex 0 = root
+Vertex 1 = DQ022305_HKU3_1
+Vertex 2 = NC_004718
+Vertex 3 = MG772933_isolate_bat_SL_CoVZC45
+Vertex 4 = MN908947_Wuhan_Hu_1
+Vertex 5 = MN996532_Bat_RaTG13
+Vertex 6 = MT040334_PCoV_GX_P1E
+Vertex 7 = MT121216_Pangolin_MP789
+
+Leaf Count = 0
+List of Trinets extracted from the Network: 
+Tr0 = Tr{NC_004718, DQ022305_HKU3_1, MG772933_isolate_bat_SL_CoVZC45 : S2}
+Tr1 = Tr{DQ022305_HKU3_1, MN908947_Wuhan_Hu_1, MG772933_isolate_bat_SL_CoVZC45 : S1}
+Tr2 = Tr{DQ022305_HKU3_1, MN996532_Bat_RaTG13, MG772933_isolate_bat_SL_CoVZC45 : S1}
+Tr3 = Tr{DQ022305_HKU3_1, MT040334_PCoV_GX_P1E, MG772933_isolate_bat_SL_CoVZC45 : S1}
+Tr4 = Tr{DQ022305_HKU3_1, MT121216_Pangolin_MP789, MG772933_isolate_bat_SL_CoVZC45 : S1}
+Tr5 = Tr{NC_004718, MN908947_Wuhan_Hu_1, MG772933_isolate_bat_SL_CoVZC45 : S1}
+Tr6 = Tr{NC_004718, MN996532_Bat_RaTG13, MG772933_isolate_bat_SL_CoVZC45 : S1}
+Tr7 = Tr{NC_004718, MT040334_PCoV_GX_P1E, MG772933_isolate_bat_SL_CoVZC45 : S1}
+Tr8 = Tr{NC_004718, MT121216_Pangolin_MP789, MG772933_isolate_bat_SL_CoVZC45 : S1}
+Tr9 = Tr{MT040334_PCoV_GX_P1E, MN908947_Wuhan_Hu_1, MG772933_isolate_bat_SL_CoVZC45 : S2}
+Tr10 = Tr{MT121216_Pangolin_MP789, MN908947_Wuhan_Hu_1, MG772933_isolate_bat_SL_CoVZC45 : S2}
+Tr11 = Tr{MT040334_PCoV_GX_P1E, MN996532_Bat_RaTG13, MG772933_isolate_bat_SL_CoVZC45 : S2}
+Tr12 = Tr{MT121216_Pangolin_MP789, MN996532_Bat_RaTG13, MG772933_isolate_bat_SL_CoVZC45 : S2}
+Tr13 = Tr{MT040334_PCoV_GX_P1E, MT121216_Pangolin_MP789, MG772933_isolate_bat_SL_CoVZC45 : S2}
+Tr14 = Tr{DQ022305_HKU3_1, NC_004718, MN908947_Wuhan_Hu_1 : T1}
+Tr15 = Tr{DQ022305_HKU3_1, NC_004718, MN996532_Bat_RaTG13 : T1}
+Tr16 = Tr{DQ022305_HKU3_1, NC_004718, MT040334_PCoV_GX_P1E : T1}
+Tr17 = Tr{DQ022305_HKU3_1, NC_004718, MT121216_Pangolin_MP789 : T1}
+Tr18 = Tr{MN908947_Wuhan_Hu_1, MN996532_Bat_RaTG13, DQ022305_HKU3_1 : T1}
+Tr19 = Tr{MN908947_Wuhan_Hu_1, MT040334_PCoV_GX_P1E, DQ022305_HKU3_1 : T1}
+Tr20 = Tr{MN908947_Wuhan_Hu_1, MT121216_Pangolin_MP789, DQ022305_HKU3_1 : T1}
+Tr21 = Tr{MN996532_Bat_RaTG13, MT040334_PCoV_GX_P1E, DQ022305_HKU3_1 : T1}
+Tr22 = Tr{MN996532_Bat_RaTG13, MT121216_Pangolin_MP789, DQ022305_HKU3_1 : T1}
+Tr23 = Tr{MT040334_PCoV_GX_P1E, MT121216_Pangolin_MP789, DQ022305_HKU3_1 : T1}
+Tr24 = Tr{MN908947_Wuhan_Hu_1, MN996532_Bat_RaTG13, NC_004718 : T1}
+Tr25 = Tr{MN908947_Wuhan_Hu_1, MT040334_PCoV_GX_P1E, NC_004718 : T1}
+Tr26 = Tr{MN908947_Wuhan_Hu_1, MT121216_Pangolin_MP789, NC_004718 : T1}
+Tr27 = Tr{MN996532_Bat_RaTG13, MT040334_PCoV_GX_P1E, NC_004718 : T1}
+Tr28 = Tr{MN996532_Bat_RaTG13, MT121216_Pangolin_MP789, NC_004718 : T1}
+Tr29 = Tr{MT040334_PCoV_GX_P1E, MT121216_Pangolin_MP789, NC_004718 : T1}
+Tr30 = Tr{MN908947_Wuhan_Hu_1, MN996532_Bat_RaTG13, MG772933_isolate_bat_SL_CoVZC45 : T1}
+Tr31 = Tr{MN908947_Wuhan_Hu_1, MN996532_Bat_RaTG13, MT040334_PCoV_GX_P1E : T1}
+Tr32 = Tr{MN908947_Wuhan_Hu_1, MN996532_Bat_RaTG13, MT121216_Pangolin_MP789 : T1}
+Tr33 = Tr{MN908947_Wuhan_Hu_1, MT121216_Pangolin_MP789, MT040334_PCoV_GX_P1E : T1}
+Tr34 = Tr{MN996532_Bat_RaTG13, MT121216_Pangolin_MP789, MT040334_PCoV_GX_P1E : T1}
+List of Trinets: end 
+
+REPORT: ((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,((MG772933_isolate_bat_SL_CoVZC45)#H1,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13)n1)n5)n4)n3,(NC_004718,(DQ022305_HKU3_1,#H1)n7)n6)root;
+REPORT: ((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,((MG772933_isolate_bat_SL_CoVZC45)#H1,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13)))),(NC_004718,(DQ022305_HKU3_1,#H1)))root;
+Extracting trinets from Output network...........
+Output Network eNewick: 
+((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,((MG772933_isolate_bat_SL_CoVZC45)#H1,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13)n1)n5)n4)n3,(NC_004718,(DQ022305_HKU3_1,#H1)n7)n6)root;
+
+finalNetwork eNewick Short: 
+((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,((MG772933_isolate_bat_SL_CoVZC45)#H1,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13)))),(NC_004718,(DQ022305_HKU3_1,#H1)))root;
+
+Number of leaves in the output network: 7
+
+
+Reticulations in  output network = 1
+
+
+
+Time to extract Trinets =  0 hours 0 minutes 0 seconds
+Time build our network =  0 hours 0 minutes 0 seconds
+Time to compare results =  0 hours 0 minutes 0 seconds
+Total program time =  0 hours 0 minutes 0 seconds
+
+Results Summary
+Written eNewick String to output.tree
+Output eNewick String Short: 
+((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,((MG772933_isolate_bat_SL_CoVZC45)#H1,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13)))),(NC_004718,(DQ022305_HKU3_1,#H1)))root;
+
+

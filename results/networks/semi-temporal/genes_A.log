@@ -1,0 +1,51 @@
+Processing file 0/1: ../../data/a_genes_seqsel4_BS_rooted_nolen.tree
+Reduce to 1 instances
+trying 0
+trying 1
+Took 0.00315707 seconds
+No solution
+
+Processing file 0/1: ../../data/a_genes_seqsel4_BS_rooted_nolen.tree
+Reduce to 1 instances
+
+maxTemporalDistance=0
+
+trying 0
+trying 1
+
+maxTemporalDistance=1
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+
+maxTemporalDistance=2
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+
+maxTemporalDistance=3
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+
+maxTemporalDistance=4
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6

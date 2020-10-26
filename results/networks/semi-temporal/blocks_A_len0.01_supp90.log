@@ -1,0 +1,60 @@
+Processing file 0/1: ../../data/a_blocks_seqsel4_BS_rooted_len0.01_supp90_binary.tree
+Reduce to 1 instances
+trying 0
+trying 1
+trying 2
+trying 3
+Took 0.00582835 seconds
+No solution
+
+Processing file 0/1: ../../data/a_blocks_seqsel4_BS_rooted_len0.01_supp90_binary.tree
+Reduce to 1 instances
+
+maxTemporalDistance=0
+
+trying 0
+trying 1
+trying 2
+trying 3
+
+maxTemporalDistance=1
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+trying 7
+trying 8
+
+maxTemporalDistance=2
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+trying 7
+trying 8
+trying 9
+trying 10
+
+maxTemporalDistance=3
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+trying 7
+trying 8
+trying 9
+trying 10
+Took 21.6731 seconds
+Solution found for k=10 and p=3

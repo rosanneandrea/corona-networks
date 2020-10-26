@@ -1,0 +1,23 @@
+Processing file 0/1: ../../data/a_blocks_seqsel9_BS_rooted_len0.01_supp90_binary.tree
+Reduce to 2 instances
+trying 0
+trying 1
+trying 2
+trying 0
+Took 0.000579122 seconds
+Solution found for k=2 and p=0
+
+Processing file 0/1: ../../data/a_blocks_seqsel9_BS_rooted_len0.01_supp90_binary.tree
+Reduce to 2 instances
+
+maxTemporalDistance=0
+
+trying 0
+trying 1
+trying 2
+
+maxTemporalDistance=0
+
+trying 0
+Took 0.000534135 seconds
+Solution found for k=2 and p=0

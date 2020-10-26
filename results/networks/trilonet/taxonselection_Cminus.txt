@@ -1,0 +1,65 @@
+Number of Taxa: 6
+ORIGINAL SEQUENCES LENGTH =  27741
+
+
+CLEANED SEQUENCES LENGTH = 27432
+Number of taxa: 6
+Vertex 0 = root
+Vertex 1 = DQ022305_HKU3_1
+Vertex 2 = NC_004718
+Vertex 3 = MN908947_Wuhan_Hu_1
+Vertex 4 = MN996532_Bat_RaTG13
+Vertex 5 = MT040334_PCoV_GX_P1E
+Vertex 6 = MT121216_Pangolin_MP789
+
+Leaf Count = 0
+List of Trinets extracted from the Network: 
+Tr0 = Tr{DQ022305_HKU3_1, NC_004718, MN908947_Wuhan_Hu_1 : T1}
+Tr1 = Tr{DQ022305_HKU3_1, NC_004718, MN996532_Bat_RaTG13 : T1}
+Tr2 = Tr{DQ022305_HKU3_1, NC_004718, MT040334_PCoV_GX_P1E : T1}
+Tr3 = Tr{DQ022305_HKU3_1, NC_004718, MT121216_Pangolin_MP789 : T1}
+Tr4 = Tr{MN908947_Wuhan_Hu_1, MN996532_Bat_RaTG13, DQ022305_HKU3_1 : T1}
+Tr5 = Tr{MN908947_Wuhan_Hu_1, MT040334_PCoV_GX_P1E, DQ022305_HKU3_1 : T1}
+Tr6 = Tr{MN908947_Wuhan_Hu_1, MT121216_Pangolin_MP789, DQ022305_HKU3_1 : T1}
+Tr7 = Tr{MN996532_Bat_RaTG13, MT040334_PCoV_GX_P1E, DQ022305_HKU3_1 : T1}
+Tr8 = Tr{MN996532_Bat_RaTG13, MT121216_Pangolin_MP789, DQ022305_HKU3_1 : T1}
+Tr9 = Tr{MT040334_PCoV_GX_P1E, MT121216_Pangolin_MP789, DQ022305_HKU3_1 : T1}
+Tr10 = Tr{MN908947_Wuhan_Hu_1, MN996532_Bat_RaTG13, NC_004718 : T1}
+Tr11 = Tr{MN908947_Wuhan_Hu_1, MT040334_PCoV_GX_P1E, NC_004718 : T1}
+Tr12 = Tr{MN908947_Wuhan_Hu_1, MT121216_Pangolin_MP789, NC_004718 : T1}
+Tr13 = Tr{MN996532_Bat_RaTG13, MT040334_PCoV_GX_P1E, NC_004718 : T1}
+Tr14 = Tr{MN996532_Bat_RaTG13, MT121216_Pangolin_MP789, NC_004718 : T1}
+Tr15 = Tr{MT040334_PCoV_GX_P1E, MT121216_Pangolin_MP789, NC_004718 : T1}
+Tr16 = Tr{MN908947_Wuhan_Hu_1, MN996532_Bat_RaTG13, MT040334_PCoV_GX_P1E : T1}
+Tr17 = Tr{MN908947_Wuhan_Hu_1, MN996532_Bat_RaTG13, MT121216_Pangolin_MP789 : T1}
+Tr18 = Tr{MN908947_Wuhan_Hu_1, MT121216_Pangolin_MP789, MT040334_PCoV_GX_P1E : T1}
+Tr19 = Tr{MN996532_Bat_RaTG13, MT121216_Pangolin_MP789, MT040334_PCoV_GX_P1E : T1}
+List of Trinets: end 
+
+REPORT: ((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13)n2)n3)n4,(DQ022305_HKU3_1,NC_004718)n1)root;
+REPORT: ((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13))),(DQ022305_HKU3_1,NC_004718))root;
+Extracting trinets from Output network...........
+Output Network eNewick: 
+((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13)n2)n3)n4,(DQ022305_HKU3_1,NC_004718)n1)root;
+
+finalNetwork eNewick Short: 
+((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13))),(DQ022305_HKU3_1,NC_004718))root;
+
+Number of leaves in the output network: 6
+
+
+Reticulations in  output network = 0
+
+
+
+Time to extract Trinets =  0 hours 0 minutes 0 seconds
+Time build our network =  0 hours 0 minutes 0 seconds
+Time to compare results =  0 hours 0 minutes 0 seconds
+Total program time =  0 hours 0 minutes 0 seconds
+
+Results Summary
+Written eNewick String to output.tree
+Output eNewick String Short: 
+((MT040334_PCoV_GX_P1E,(MT121216_Pangolin_MP789,(MN908947_Wuhan_Hu_1,MN996532_Bat_RaTG13))),(DQ022305_HKU3_1,NC_004718))root;
+
+

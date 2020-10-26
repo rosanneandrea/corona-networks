@@ -1,0 +1,37 @@
+Processing file 0/1: ../../data/a_blocks_seqsel9_BS_rooted_nolen.tree
+Reduce to 2 instances
+trying 0
+trying 1
+trying 2
+Took 0.00107803 seconds
+No solution
+
+Processing file 0/1: ../../data/a_blocks_seqsel9_BS_rooted_nolen.tree
+Reduce to 2 instances
+
+maxTemporalDistance=0
+
+trying 0
+trying 1
+trying 2
+
+maxTemporalDistance=1
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+
+maxTemporalDistance=2
+
+trying 0
+trying 1
+trying 2
+trying 3
+
+maxTemporalDistance=0
+
+trying 0
+Took 0.0115116 seconds
+Solution found for k=3 and p=2

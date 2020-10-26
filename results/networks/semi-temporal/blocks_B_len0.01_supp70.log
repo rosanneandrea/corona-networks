@@ -1,0 +1,83 @@
+Processing file 0/1: ../../data/a_blocks_seqsel6_BS_rooted_len0.01_supp70_binary.tree
+Reduce to 1 instances
+trying 0
+trying 1
+Took 0.00163937 seconds
+No solution
+
+Processing file 0/1: ../../data/a_blocks_seqsel6_BS_rooted_len0.01_supp70_binary.tree
+Reduce to 1 instances
+
+maxTemporalDistance=0
+
+trying 0
+trying 1
+
+maxTemporalDistance=1
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+
+maxTemporalDistance=2
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+trying 7
+trying 8
+trying 9
+trying 10
+
+maxTemporalDistance=3
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+trying 7
+trying 8
+trying 9
+trying 10
+trying 11
+
+maxTemporalDistance=4
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+trying 7
+trying 8
+trying 9
+trying 10
+trying 11
+trying 12
+
+maxTemporalDistance=5
+
+trying 0
+trying 1
+trying 2
+trying 3
+trying 4
+trying 5
+trying 6
+trying 7
+trying 8
+Took 117.036 seconds
+Solution found for k=8 and p=5

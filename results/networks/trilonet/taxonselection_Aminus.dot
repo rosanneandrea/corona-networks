@@ -1,0 +1,27 @@
+digraph /home/rosanne/documents/minor_research_project/results/trilonet/corona_edited_seqsel8
+{
+"n12"[shape=point];"n4"[shape=point];"DQ412042_Rf1"[shape=box];"JX993988_Cp_Yunnan2011"[shape=box];"NC_004718"[shape=box];"DQ022305_HKU3_1"[shape=box];"KJ473816_BtRs_BetaCoV_YN2013"[shape=box];"DQ412043_Rm1"[shape=box];"KP886808_YNLF_31C"[shape=box];"n5"[shape=point];"n6"[shape=point];"n7"[shape=point];"n8"[shape=point];"n9"[shape=point];"n10"[shape=point];"n11"[shape=point];"n3"[shape=point];"MT040334_PCoV_GX_P1E"[shape=box];"n2"[shape=point];"MT121216_Pangolin_MP789"[shape=box];"n1"[shape=point];"MN908947_Wuhan_Hu_1"[shape=box];"MN996532_Bat_RaTG13"[shape=box];
+"n12"->"n4"
+"n12"->"n3"
+"n4"->"n5"
+"n4"->"n10"
+"n5"->"JX993988_Cp_Yunnan2011"
+"n5"->"n6"
+"n6"->"NC_004718"
+"n6"->"n7"
+"n7"->"DQ022305_HKU3_1"
+"n7"->"n8"
+"n8"->"KJ473816_BtRs_BetaCoV_YN2013"
+"n8"->"n9"
+"n9"->"DQ412043_Rm1"
+"n9"->"n11"
+"n10"->"KP886808_YNLF_31C"
+"n10"->"n11"
+"n11"->"DQ412042_Rf1"
+"n3"->"MT040334_PCoV_GX_P1E"
+"n3"->"n2"
+"n2"->"MT121216_Pangolin_MP789"
+"n2"->"n1"
+"n1"->"MN908947_Wuhan_Hu_1"
+"n1"->"MN996532_Bat_RaTG13"
+}
