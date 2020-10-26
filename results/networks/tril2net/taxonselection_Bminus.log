@@ -1,0 +1,400 @@
+2020-09-11 15:57:08,538 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Created solver for list of 56 trinets representing taxa {'MT040334_PCoV_GX_P1E', 'DQ412042_Rf1', 'NC_004718', 'DQ412043_Rm1', 'DQ022305_HKU3_1', 'MT121216_Pangolin_MP789', 'MN908947_Wuhan_Hu_1', 'MN996532_Bat_RaTG13'}
+2020-09-11 15:57:08,538 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Started solving
+2020-09-11 15:57:08,538 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Shrinking ...
+2020-09-11 15:57:08,565 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next shrink.
+2020-09-11 15:57:08,565 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of trinets left is 56
+2020-09-11 15:57:08,565 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Leaves leftover are {'MT040334_PCoV_GX_P1E', 'DQ412042_Rf1', 'NC_004718', 'DQ412043_Rm1', 'DQ022305_HKU3_1', 'MT121216_Pangolin_MP789', 'MN908947_Wuhan_Hu_1', 'MN996532_Bat_RaTG13'}
+2020-09-11 15:57:08,566 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Minimal sink-set is 
+ ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-11 15:57:08,566 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Shrinking minimal sink-set ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-11 15:57:08,566 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Computing network of minimal sink-set ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-11 15:57:08,566 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-11 15:57:08,671 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of binets that describe this mss is 28
+2020-09-11 15:57:08,714 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next shrink.
+2020-09-11 15:57:08,714 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of trinets left is 35
+2020-09-11 15:57:08,714 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Leaves leftover are {'MT040334_PCoV_GX_P1E', 'DQ412042_Rf1', 'NC_004718', 'DQ412043_Rm1', 'DQ022305_HKU3_1', 'MT121216_Pangolin_MP789', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)'}
+2020-09-11 15:57:08,714 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Minimal sink-set is 
+ ['(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789']
+2020-09-11 15:57:08,714 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Shrinking minimal sink-set ['(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789']
+2020-09-11 15:57:08,714 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Computing network of minimal sink-set ['(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789']
+2020-09-11 15:57:08,715 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-11 15:57:08,783 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of binets that describe this mss is 21
+2020-09-11 15:57:08,811 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next shrink.
+2020-09-11 15:57:08,811 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of trinets left is 20
+2020-09-11 15:57:08,811 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Leaves leftover are {'MT040334_PCoV_GX_P1E', 'DQ412042_Rf1', 'NC_004718', 'DQ412043_Rm1', 'DQ022305_HKU3_1', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)'}
+2020-09-11 15:57:08,812 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Minimal sink-set is 
+ [   '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)',
+    'MT040334_PCoV_GX_P1E']
+2020-09-11 15:57:08,812 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Shrinking minimal sink-set ['((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'MT040334_PCoV_GX_P1E']
+2020-09-11 15:57:08,812 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Computing network of minimal sink-set ['((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'MT040334_PCoV_GX_P1E']
+2020-09-11 15:57:08,812 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-11 15:57:08,852 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of binets that describe this mss is 15
+2020-09-11 15:57:08,869 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next shrink.
+2020-09-11 15:57:08,869 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of trinets left is 10
+2020-09-11 15:57:08,869 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Leaves leftover are {'DQ412042_Rf1', 'NC_004718', 'DQ412043_Rm1', 'DQ022305_HKU3_1', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)'}
+2020-09-11 15:57:08,869 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Minimal sink-set is 
+ ['NC_004718', 'DQ022305_HKU3_1', 'DQ412043_Rm1', 'DQ412042_Rf1']
+2020-09-11 15:57:08,869 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Shrinking minimal sink-set ['NC_004718', 'DQ022305_HKU3_1', 'DQ412043_Rm1', 'DQ412042_Rf1']
+2020-09-11 15:57:08,870 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Computing network of minimal sink-set ['NC_004718', 'DQ022305_HKU3_1', 'DQ412043_Rm1', 'DQ412042_Rf1']
+2020-09-11 15:57:08,870 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of networks that describe this mss is 4
+2020-09-11 15:57:08,870 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Computing level ...
+2020-09-11 15:57:08,870 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Level percentages are [0, 1.0, 0]
+2020-09-11 15:57:08,870 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Level thresholds are [0, 0, 0.25]
+2020-09-11 15:57:08,870 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Best level is 1
+2020-09-11 15:57:08,874 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Computing generator ...
+2020-09-11 15:57:08,874 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Generator of underlying generator of minimal sink-set is 1
+2020-09-11 15:57:08,874 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Filling symmetric side sets  ...
+2020-09-11 15:57:08,874 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Locating leaves greedily
+2020-09-11 15:57:08,875 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Found that the leaves are on the symmetric side sets as follows 
+ {('0', '1'): {'DQ412042_Rf1', 'NC_004718', 'DQ022305_HKU3_1'}}
+2020-09-11 15:57:08,875 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Found that the reticulations in the generator should be renamed as follows 
+ bidict({'DQ412043_Rm1': 'A'})
+2020-09-11 15:57:08,875 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Splitting symmetric side sets  ...
+2020-09-11 15:57:08,875 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Found that the leaves are on the edge sides as follows 
+ {('0', '1'): {0: {'NC_004718'}, 1: {'DQ412042_Rf1', 'DQ022305_HKU3_1'}}}
+2020-09-11 15:57:10,878 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Computing leaf order for side sets ...
+2020-09-11 15:57:10,879 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Found that the leaves are ordered on the edges as follows 
+ {('0', '1'): {0: ['NC_004718'], 1: ['DQ412042_Rf1', 'DQ022305_HKU3_1']}}
+2020-09-11 15:57:10,880 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Naming sides in symmetric side sets ...
+2020-09-11 15:57:10,880 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Found that leaves should be on the sides as follows 
+ [(('0', '1'), ['NC_004718']), (('0', '1'), ['DQ412042_Rf1', 'DQ022305_HKU3_1'])]
+2020-09-11 15:57:10,892 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next shrink.
+2020-09-11 15:57:10,892 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of trinets left is 0
+2020-09-11 15:57:10,892 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Switching to binets
+2020-09-11 15:57:10,892 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of binets left is 1
+2020-09-11 15:57:10,892 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Leaves leftover are {'(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)'}
+2020-09-11 15:57:10,892 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Minimal sink-set is 
+ [   '(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)',
+    '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-11 15:57:10,892 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Shrinking minimal sink-set ['(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Computing network of minimal sink-set ['(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next shrink.
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of trinets left is 0
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Switching to binets
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Number of binets left is 0
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Leaves leftover are set()
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Finished shrinking
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Expanding ...
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next expansion.
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Looking for leaves in component 286c3e4a2599575974c3c6cff832b3ca to expand.
+2020-09-11 15:57:10,893 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Component has taxa ['(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)', '(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)'].
+2020-09-11 15:57:10,894 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Need to replace (DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)
+2020-09-11 15:57:10,894 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Need to replace (((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)
+2020-09-11 15:57:10,894 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Expanding (DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718) using bc5542c108ed4c99530c45175a16ff05
+2020-09-11 15:57:10,894 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Expanding (((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E) using 00c40e63d4f4252cad24d50d24700096
+2020-09-11 15:57:10,895 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next expansion.
+2020-09-11 15:57:10,895 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Looking for leaves in component 2afa09269a3b23771ef78126e620bc3e to expand.
+2020-09-11 15:57:10,895 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Component has taxa ['DQ412043_Rm1', 'NC_004718', 'DQ412042_Rf1', 'DQ022305_HKU3_1', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'MT040334_PCoV_GX_P1E'].
+2020-09-11 15:57:10,895 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Need to replace ((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)
+2020-09-11 15:57:10,895 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Expanding ((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789) using fcc014a017194771ad709b2980f05f72
+2020-09-11 15:57:10,895 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next expansion.
+2020-09-11 15:57:10,895 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Looking for leaves in component 72166db57d72078b56d257eef04da038 to expand.
+2020-09-11 15:57:10,895 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Component has taxa ['DQ412043_Rm1', 'NC_004718', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MT040334_PCoV_GX_P1E', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789'].
+2020-09-11 15:57:10,896 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Need to replace (MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)
+2020-09-11 15:57:10,896 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Expanding (MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13) using c29a08a0e05b4e5f48aa464249ffaa9e
+2020-09-11 15:57:10,896 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Performing the next expansion.
+2020-09-11 15:57:10,896 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Looking for leaves in component 6276f846e376475211da4493228392b0 to expand.
+2020-09-11 15:57:10,896 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Component has taxa ['DQ412043_Rm1', 'NC_004718', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MT040334_PCoV_GX_P1E', 'MT121216_Pangolin_MP789', 'MN908947_Wuhan_Hu_1', 'MN996532_Bat_RaTG13'].
+2020-09-11 15:57:10,896 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - No leaves found to expand.
+2020-09-11 15:57:10,896 - solver.72a92246ec8483810735b1ee6244ee11 - INFO - Finished solving
+2020-09-11 16:19:40,595 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Created solver for list of 56 trinets representing taxa {'MT121216_Pangolin_MP789', 'DQ412043_Rm1', 'MN908947_Wuhan_Hu_1', 'MT040334_PCoV_GX_P1E', 'NC_004718', 'DQ022305_HKU3_1', 'MN996532_Bat_RaTG13', 'DQ412042_Rf1'}
+2020-09-11 16:19:40,597 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Started solving
+2020-09-11 16:19:40,597 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Shrinking ...
+2020-09-11 16:19:40,624 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next shrink.
+2020-09-11 16:19:40,624 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of trinets left is 56
+2020-09-11 16:19:40,624 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Leaves leftover are {'MT121216_Pangolin_MP789', 'DQ412043_Rm1', 'MN908947_Wuhan_Hu_1', 'MT040334_PCoV_GX_P1E', 'NC_004718', 'DQ022305_HKU3_1', 'MN996532_Bat_RaTG13', 'DQ412042_Rf1'}
+2020-09-11 16:19:40,624 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Minimal sink-set is 
+ ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-11 16:19:40,624 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Shrinking minimal sink-set ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-11 16:19:40,625 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Computing network of minimal sink-set ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-11 16:19:40,625 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-11 16:19:40,729 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of binets that describe this mss is 28
+2020-09-11 16:19:40,771 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next shrink.
+2020-09-11 16:19:40,771 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of trinets left is 35
+2020-09-11 16:19:40,772 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Leaves leftover are {'MT121216_Pangolin_MP789', 'DQ412043_Rm1', 'MT040334_PCoV_GX_P1E', 'NC_004718', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'DQ022305_HKU3_1', 'DQ412042_Rf1'}
+2020-09-11 16:19:40,772 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Minimal sink-set is 
+ ['(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789']
+2020-09-11 16:19:40,772 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Shrinking minimal sink-set ['(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789']
+2020-09-11 16:19:40,772 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Computing network of minimal sink-set ['(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789']
+2020-09-11 16:19:40,772 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-11 16:19:40,839 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of binets that describe this mss is 21
+2020-09-11 16:19:40,868 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next shrink.
+2020-09-11 16:19:40,868 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of trinets left is 20
+2020-09-11 16:19:40,868 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Leaves leftover are {'((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'DQ412043_Rm1', 'MT040334_PCoV_GX_P1E', 'NC_004718', 'DQ022305_HKU3_1', 'DQ412042_Rf1'}
+2020-09-11 16:19:40,868 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Minimal sink-set is 
+ [   'MT040334_PCoV_GX_P1E',
+    '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)']
+2020-09-11 16:19:40,868 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Shrinking minimal sink-set ['MT040334_PCoV_GX_P1E', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)']
+2020-09-11 16:19:40,868 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Computing network of minimal sink-set ['MT040334_PCoV_GX_P1E', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)']
+2020-09-11 16:19:40,868 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-11 16:19:40,907 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of binets that describe this mss is 15
+2020-09-11 16:19:40,924 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next shrink.
+2020-09-11 16:19:40,924 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of trinets left is 10
+2020-09-11 16:19:40,925 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Leaves leftover are {'DQ412043_Rm1', 'NC_004718', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)', 'DQ022305_HKU3_1', 'DQ412042_Rf1'}
+2020-09-11 16:19:40,925 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Minimal sink-set is 
+ ['DQ022305_HKU3_1', 'NC_004718', 'DQ412042_Rf1', 'DQ412043_Rm1']
+2020-09-11 16:19:40,925 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Shrinking minimal sink-set ['DQ022305_HKU3_1', 'NC_004718', 'DQ412042_Rf1', 'DQ412043_Rm1']
+2020-09-11 16:19:40,925 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Computing network of minimal sink-set ['DQ022305_HKU3_1', 'NC_004718', 'DQ412042_Rf1', 'DQ412043_Rm1']
+2020-09-11 16:19:40,925 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of networks that describe this mss is 4
+2020-09-11 16:19:40,926 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Computing level ...
+2020-09-11 16:19:40,926 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Level percentages are [0, 1.0, 0]
+2020-09-11 16:19:40,926 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Level thresholds are [0, 0, 0.25]
+2020-09-11 16:19:40,926 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Best level is 1
+2020-09-11 16:19:40,928 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Computing generator ...
+2020-09-11 16:19:40,929 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Generator of underlying generator of minimal sink-set is 1
+2020-09-11 16:19:40,929 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Filling symmetric side sets  ...
+2020-09-11 16:19:40,929 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Locating leaves greedily
+2020-09-11 16:19:40,929 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Found that the leaves are on the symmetric side sets as follows 
+ {('0', '1'): {'DQ412042_Rf1', 'NC_004718', 'DQ022305_HKU3_1'}}
+2020-09-11 16:19:40,929 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Found that the reticulations in the generator should be renamed as follows 
+ bidict({'DQ412043_Rm1': 'A'})
+2020-09-11 16:19:40,930 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Splitting symmetric side sets  ...
+2020-09-11 16:19:40,930 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Found that the leaves are on the edge sides as follows 
+ {('0', '1'): {0: {'DQ022305_HKU3_1'}, 1: {'DQ412042_Rf1', 'NC_004718'}}}
+2020-09-11 16:19:42,933 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Computing leaf order for side sets ...
+2020-09-11 16:19:42,934 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Found that the leaves are ordered on the edges as follows 
+ {('0', '1'): {0: ['DQ022305_HKU3_1'], 1: ['NC_004718', 'DQ412042_Rf1']}}
+2020-09-11 16:19:42,934 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Naming sides in symmetric side sets ...
+2020-09-11 16:19:42,935 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Found that leaves should be on the sides as follows 
+ [(('0', '1'), ['DQ022305_HKU3_1']), (('0', '1'), ['NC_004718', 'DQ412042_Rf1'])]
+2020-09-11 16:19:42,946 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next shrink.
+2020-09-11 16:19:42,946 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of trinets left is 0
+2020-09-11 16:19:42,946 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Switching to binets
+2020-09-11 16:19:42,946 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of binets left is 1
+2020-09-11 16:19:42,946 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Leaves leftover are {'(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)'}
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Minimal sink-set is 
+ [   '(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)',
+    '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Shrinking minimal sink-set ['(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Computing network of minimal sink-set ['(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next shrink.
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of trinets left is 0
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Switching to binets
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Number of binets left is 0
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Leaves leftover are set()
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Finished shrinking
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Expanding ...
+2020-09-11 16:19:42,947 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next expansion.
+2020-09-11 16:19:42,948 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Looking for leaves in component f9ba6c83f01f78d3ee018831c1c9e52b to expand.
+2020-09-11 16:19:42,948 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Component has taxa ['(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)', '(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)'].
+2020-09-11 16:19:42,948 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Need to replace (DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)
+2020-09-11 16:19:42,948 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Need to replace (((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)
+2020-09-11 16:19:42,948 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Expanding (DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718) using dc176640e8d7ef2586b68d37c8edfb5e
+2020-09-11 16:19:42,948 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Expanding (((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E) using 517210d1f1730f5e23ccbeac0e6c5b60
+2020-09-11 16:19:42,949 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next expansion.
+2020-09-11 16:19:42,949 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Looking for leaves in component 1cff4d6cdc6e10b1d171e945c053a2fa to expand.
+2020-09-11 16:19:42,949 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Component has taxa ['DQ412043_Rm1', 'DQ022305_HKU3_1', 'NC_004718', 'DQ412042_Rf1', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'MT040334_PCoV_GX_P1E'].
+2020-09-11 16:19:42,949 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Need to replace ((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)
+2020-09-11 16:19:42,949 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Expanding ((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789) using 2497e4b45115a3f8992a4d18237002ef
+2020-09-11 16:19:42,949 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next expansion.
+2020-09-11 16:19:42,949 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Looking for leaves in component 8539d09d9f7f92a25b4d0b684d939791 to expand.
+2020-09-11 16:19:42,950 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Component has taxa ['DQ412043_Rm1', 'DQ022305_HKU3_1', 'NC_004718', 'DQ412042_Rf1', 'MT040334_PCoV_GX_P1E', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789'].
+2020-09-11 16:19:42,950 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Need to replace (MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)
+2020-09-11 16:19:42,950 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Expanding (MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13) using 7e9db1a343ab52d585225a7fd0b84623
+2020-09-11 16:19:42,950 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Performing the next expansion.
+2020-09-11 16:19:42,950 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Looking for leaves in component d8de194c91d03301292132e87c1fbd96 to expand.
+2020-09-11 16:19:42,950 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Component has taxa ['DQ412043_Rm1', 'DQ022305_HKU3_1', 'NC_004718', 'DQ412042_Rf1', 'MT040334_PCoV_GX_P1E', 'MT121216_Pangolin_MP789', 'MN908947_Wuhan_Hu_1', 'MN996532_Bat_RaTG13'].
+2020-09-11 16:19:42,950 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - No leaves found to expand.
+2020-09-11 16:19:42,950 - solver.eb393d6821dca70af2cb7b2b20b849e2 - INFO - Finished solving
+2020-09-15 12:17:14,661 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Created solver for list of 56 trinets representing taxa {'DQ412043_Rm1', 'MT040334_PCoV_GX_P1E', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MN996532_Bat_RaTG13', 'MT121216_Pangolin_MP789', 'NC_004718', 'MN908947_Wuhan_Hu_1'}
+2020-09-15 12:17:14,671 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Started solving
+2020-09-15 12:17:14,672 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Shrinking ...
+2020-09-15 12:17:14,699 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next shrink.
+2020-09-15 12:17:14,699 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of trinets left is 56
+2020-09-15 12:17:14,699 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Leaves leftover are {'DQ412043_Rm1', 'MT040334_PCoV_GX_P1E', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MN996532_Bat_RaTG13', 'MT121216_Pangolin_MP789', 'NC_004718', 'MN908947_Wuhan_Hu_1'}
+2020-09-15 12:17:14,699 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Minimal sink-set is 
+ ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-15 12:17:14,699 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Shrinking minimal sink-set ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-15 12:17:14,699 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Computing network of minimal sink-set ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-15 12:17:14,699 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-15 12:17:14,804 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of binets that describe this mss is 28
+2020-09-15 12:17:14,847 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next shrink.
+2020-09-15 12:17:14,847 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of trinets left is 35
+2020-09-15 12:17:14,847 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Leaves leftover are {'DQ412043_Rm1', 'MT040334_PCoV_GX_P1E', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MT121216_Pangolin_MP789', 'NC_004718', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)'}
+2020-09-15 12:17:14,848 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Minimal sink-set is 
+ ['MT121216_Pangolin_MP789', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)']
+2020-09-15 12:17:14,848 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Shrinking minimal sink-set ['MT121216_Pangolin_MP789', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)']
+2020-09-15 12:17:14,848 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Computing network of minimal sink-set ['MT121216_Pangolin_MP789', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)']
+2020-09-15 12:17:14,848 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-15 12:17:14,916 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of binets that describe this mss is 21
+2020-09-15 12:17:14,944 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next shrink.
+2020-09-15 12:17:14,944 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of trinets left is 20
+2020-09-15 12:17:14,944 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Leaves leftover are {'DQ412043_Rm1', 'MT040334_PCoV_GX_P1E', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'NC_004718', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)'}
+2020-09-15 12:17:14,944 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Minimal sink-set is 
+ [   '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)',
+    'MT040334_PCoV_GX_P1E']
+2020-09-15 12:17:14,944 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Shrinking minimal sink-set ['((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'MT040334_PCoV_GX_P1E']
+2020-09-15 12:17:14,944 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Computing network of minimal sink-set ['((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'MT040334_PCoV_GX_P1E']
+2020-09-15 12:17:14,944 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-15 12:17:14,984 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of binets that describe this mss is 15
+2020-09-15 12:17:15,001 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next shrink.
+2020-09-15 12:17:15,001 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of trinets left is 10
+2020-09-15 12:17:15,002 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Leaves leftover are {'DQ412043_Rm1', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'NC_004718', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)'}
+2020-09-15 12:17:15,002 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Minimal sink-set is 
+ ['DQ022305_HKU3_1', 'DQ412042_Rf1', 'NC_004718', 'DQ412043_Rm1']
+2020-09-15 12:17:15,002 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Shrinking minimal sink-set ['DQ022305_HKU3_1', 'DQ412042_Rf1', 'NC_004718', 'DQ412043_Rm1']
+2020-09-15 12:17:15,002 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Computing network of minimal sink-set ['DQ022305_HKU3_1', 'DQ412042_Rf1', 'NC_004718', 'DQ412043_Rm1']
+2020-09-15 12:17:15,003 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of networks that describe this mss is 4
+2020-09-15 12:17:15,003 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Computing level ...
+2020-09-15 12:17:15,003 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Level percentages are [0, 1.0, 0]
+2020-09-15 12:17:15,003 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Level thresholds are [0, 0, 0.25]
+2020-09-15 12:17:15,003 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Best level is 1
+2020-09-15 12:17:15,006 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Computing generator ...
+2020-09-15 12:17:15,006 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Generator of underlying generator of minimal sink-set is 1
+2020-09-15 12:17:15,006 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Filling symmetric side sets  ...
+2020-09-15 12:17:15,006 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Locating leaves greedily
+2020-09-15 12:17:15,006 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Found that the leaves are on the symmetric side sets as follows 
+ {('0', '1'): {'NC_004718', 'DQ412042_Rf1', 'DQ022305_HKU3_1'}}
+2020-09-15 12:17:15,006 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Found that the reticulations in the generator should be renamed as follows 
+ bidict({'DQ412043_Rm1': 'A'})
+2020-09-15 12:17:15,007 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Splitting symmetric side sets  ...
+2020-09-15 12:17:15,007 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Found that the leaves are on the edge sides as follows 
+ {('0', '1'): {0: {'NC_004718'}, 1: {'DQ412042_Rf1', 'DQ022305_HKU3_1'}}}
+2020-09-15 12:17:17,010 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Computing leaf order for side sets ...
+2020-09-15 12:17:17,011 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Found that the leaves are ordered on the edges as follows 
+ {('0', '1'): {0: ['NC_004718'], 1: ['DQ412042_Rf1', 'DQ022305_HKU3_1']}}
+2020-09-15 12:17:17,011 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Naming sides in symmetric side sets ...
+2020-09-15 12:17:17,012 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Found that leaves should be on the sides as follows 
+ [(('0', '1'), ['NC_004718']), (('0', '1'), ['DQ412042_Rf1', 'DQ022305_HKU3_1'])]
+2020-09-15 12:17:17,023 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next shrink.
+2020-09-15 12:17:17,023 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of trinets left is 0
+2020-09-15 12:17:17,023 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Switching to binets
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of binets left is 1
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Leaves leftover are {'(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)'}
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Minimal sink-set is 
+ [   '(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)',
+    '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Shrinking minimal sink-set ['(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Computing network of minimal sink-set ['(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next shrink.
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of trinets left is 0
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Switching to binets
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Number of binets left is 0
+2020-09-15 12:17:17,024 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Leaves leftover are set()
+2020-09-15 12:17:17,025 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Finished shrinking
+2020-09-15 12:17:17,025 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Expanding ...
+2020-09-15 12:17:17,025 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next expansion.
+2020-09-15 12:17:17,025 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Looking for leaves in component 9d1beb8cbcce97138f5385a93adb40f5 to expand.
+2020-09-15 12:17:17,025 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Component has taxa ['(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)', '(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)'].
+2020-09-15 12:17:17,025 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Need to replace (DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)
+2020-09-15 12:17:17,025 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Need to replace (((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)
+2020-09-15 12:17:17,025 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Expanding (DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718) using 0859720e1702543b2bc0cce8f1995575
+2020-09-15 12:17:17,026 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Expanding (((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E) using b43b0c37be04419fd935e8b3768ff079
+2020-09-15 12:17:17,026 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next expansion.
+2020-09-15 12:17:17,026 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Looking for leaves in component a99552e98f6fdb2924b324a4f55c2228 to expand.
+2020-09-15 12:17:17,026 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Component has taxa ['DQ412043_Rm1', 'NC_004718', 'DQ412042_Rf1', 'DQ022305_HKU3_1', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'MT040334_PCoV_GX_P1E'].
+2020-09-15 12:17:17,026 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Need to replace ((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)
+2020-09-15 12:17:17,026 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Expanding ((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789) using 1145a47a8c9f35d46127725c3787a753
+2020-09-15 12:17:17,027 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next expansion.
+2020-09-15 12:17:17,027 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Looking for leaves in component c9744d9c956c0466a5eac3f9a8779717 to expand.
+2020-09-15 12:17:17,027 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Component has taxa ['DQ412043_Rm1', 'NC_004718', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MT040334_PCoV_GX_P1E', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789'].
+2020-09-15 12:17:17,027 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Need to replace (MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)
+2020-09-15 12:17:17,027 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Expanding (MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13) using 4dc9602762772eafa827ae86a9191ee6
+2020-09-15 12:17:17,027 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Performing the next expansion.
+2020-09-15 12:17:17,028 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Looking for leaves in component 3f12e3ab3947a1762a29025c2addc92d to expand.
+2020-09-15 12:17:17,028 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Component has taxa ['DQ412043_Rm1', 'NC_004718', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MT040334_PCoV_GX_P1E', 'MT121216_Pangolin_MP789', 'MN908947_Wuhan_Hu_1', 'MN996532_Bat_RaTG13'].
+2020-09-15 12:17:17,028 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - No leaves found to expand.
+2020-09-15 12:17:17,028 - solver.50ccfc90cd30029ba7abafff451f392b - INFO - Finished solving
+2020-09-15 12:19:28,608 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Created solver for list of 56 trinets representing taxa {'NC_004718', 'MT121216_Pangolin_MP789', 'MT040334_PCoV_GX_P1E', 'MN908947_Wuhan_Hu_1', 'DQ412043_Rm1', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MN996532_Bat_RaTG13'}
+2020-09-15 12:19:28,608 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Started solving
+2020-09-15 12:19:28,608 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Shrinking ...
+2020-09-15 12:19:28,636 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next shrink.
+2020-09-15 12:19:28,636 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of trinets left is 56
+2020-09-15 12:19:28,636 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Leaves leftover are {'NC_004718', 'MT121216_Pangolin_MP789', 'MT040334_PCoV_GX_P1E', 'MN908947_Wuhan_Hu_1', 'DQ412043_Rm1', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MN996532_Bat_RaTG13'}
+2020-09-15 12:19:28,636 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Minimal sink-set is 
+ ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-15 12:19:28,636 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Shrinking minimal sink-set ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-15 12:19:28,636 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Computing network of minimal sink-set ['MN996532_Bat_RaTG13', 'MN908947_Wuhan_Hu_1']
+2020-09-15 12:19:28,636 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-15 12:19:28,742 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of binets that describe this mss is 28
+2020-09-15 12:19:28,784 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next shrink.
+2020-09-15 12:19:28,784 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of trinets left is 35
+2020-09-15 12:19:28,784 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Leaves leftover are {'NC_004718', 'MT121216_Pangolin_MP789', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'DQ412043_Rm1', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MT040334_PCoV_GX_P1E'}
+2020-09-15 12:19:28,785 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Minimal sink-set is 
+ ['(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789']
+2020-09-15 12:19:28,785 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Shrinking minimal sink-set ['(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789']
+2020-09-15 12:19:28,785 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Computing network of minimal sink-set ['(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789']
+2020-09-15 12:19:28,785 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-15 12:19:28,852 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of binets that describe this mss is 21
+2020-09-15 12:19:28,881 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next shrink.
+2020-09-15 12:19:28,881 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of trinets left is 20
+2020-09-15 12:19:28,881 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Leaves leftover are {'((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'NC_004718', 'DQ412043_Rm1', 'DQ412042_Rf1', 'DQ022305_HKU3_1', 'MT040334_PCoV_GX_P1E'}
+2020-09-15 12:19:28,882 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Minimal sink-set is 
+ [   'MT040334_PCoV_GX_P1E',
+    '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)']
+2020-09-15 12:19:28,882 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Shrinking minimal sink-set ['MT040334_PCoV_GX_P1E', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)']
+2020-09-15 12:19:28,882 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Computing network of minimal sink-set ['MT040334_PCoV_GX_P1E', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)']
+2020-09-15 12:19:28,882 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-15 12:19:28,921 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of binets that describe this mss is 15
+2020-09-15 12:19:28,939 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next shrink.
+2020-09-15 12:19:28,939 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of trinets left is 10
+2020-09-15 12:19:28,939 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Leaves leftover are {'NC_004718', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)', 'DQ412043_Rm1', 'DQ412042_Rf1', 'DQ022305_HKU3_1'}
+2020-09-15 12:19:28,939 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Minimal sink-set is 
+ ['DQ412042_Rf1', 'DQ412043_Rm1', 'DQ022305_HKU3_1', 'NC_004718']
+2020-09-15 12:19:28,939 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Shrinking minimal sink-set ['DQ412042_Rf1', 'DQ412043_Rm1', 'DQ022305_HKU3_1', 'NC_004718']
+2020-09-15 12:19:28,939 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Computing network of minimal sink-set ['DQ412042_Rf1', 'DQ412043_Rm1', 'DQ022305_HKU3_1', 'NC_004718']
+2020-09-15 12:19:28,940 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of networks that describe this mss is 4
+2020-09-15 12:19:28,940 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Computing level ...
+2020-09-15 12:19:28,940 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Level percentages are [0, 1.0, 0]
+2020-09-15 12:19:28,941 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Level thresholds are [0, 0, 0.25]
+2020-09-15 12:19:28,941 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Best level is 1
+2020-09-15 12:19:28,943 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Computing generator ...
+2020-09-15 12:19:28,943 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Generator of underlying generator of minimal sink-set is 1
+2020-09-15 12:19:28,943 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Filling symmetric side sets  ...
+2020-09-15 12:19:28,943 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Locating leaves greedily
+2020-09-15 12:19:28,944 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Found that the leaves are on the symmetric side sets as follows 
+ {('0', '1'): {'DQ022305_HKU3_1', 'NC_004718', 'DQ412042_Rf1'}}
+2020-09-15 12:19:28,944 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Found that the reticulations in the generator should be renamed as follows 
+ bidict({'DQ412043_Rm1': 'A'})
+2020-09-15 12:19:28,944 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Splitting symmetric side sets  ...
+2020-09-15 12:19:28,944 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Found that the leaves are on the edge sides as follows 
+ {('0', '1'): {0: {'DQ022305_HKU3_1'}, 1: {'NC_004718', 'DQ412042_Rf1'}}}
+2020-09-15 12:19:30,947 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Computing leaf order for side sets ...
+2020-09-15 12:19:30,947 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Found that the leaves are ordered on the edges as follows 
+ {('0', '1'): {0: ['DQ022305_HKU3_1'], 1: ['DQ412042_Rf1', 'NC_004718']}}
+2020-09-15 12:19:30,947 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Naming sides in symmetric side sets ...
+2020-09-15 12:19:30,948 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Found that leaves should be on the sides as follows 
+ [(('0', '1'), ['DQ022305_HKU3_1']), (('0', '1'), ['DQ412042_Rf1', 'NC_004718'])]
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next shrink.
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of trinets left is 0
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Switching to binets
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of binets left is 1
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Leaves leftover are {'(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)'}
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Minimal sink-set is 
+ [   '(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)',
+    '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Shrinking minimal sink-set ['(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Computing network of minimal sink-set ['(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)', '(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)']
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Size of minimal sink-set is 2, checking all binets
+2020-09-15 12:19:30,957 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next shrink.
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of trinets left is 0
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Switching to binets
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Number of binets left is 0
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Leaves leftover are set()
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Finished shrinking
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Expanding ...
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next expansion.
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Looking for leaves in component e79528f93e7902bd4b3128fdb75ebd78 to expand.
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Component has taxa ['(((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)', '(DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)'].
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Need to replace (DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718)
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Need to replace (((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E)
+2020-09-15 12:19:30,958 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Expanding (DQ022305_HKU3_1-DQ412042_Rf1-DQ412043_Rm1-NC_004718) using 486d4a8bdd89cf182984ab095df6e138
+2020-09-15 12:19:30,959 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Expanding (((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)-MT040334_PCoV_GX_P1E) using 20484b1112722dbddaa14575dcf3e586
+2020-09-15 12:19:30,959 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next expansion.
+2020-09-15 12:19:30,959 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Looking for leaves in component 2553071a71cb5a812a3e3e41fc97e608 to expand.
+2020-09-15 12:19:30,959 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Component has taxa ['DQ412043_Rm1', 'DQ022305_HKU3_1', 'DQ412042_Rf1', 'NC_004718', '((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)', 'MT040334_PCoV_GX_P1E'].
+2020-09-15 12:19:30,959 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Need to replace ((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789)
+2020-09-15 12:19:30,959 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Expanding ((MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)-MT121216_Pangolin_MP789) using 6d9d4bd8ce661b85e34fe9858cf300a5
+2020-09-15 12:19:30,960 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next expansion.
+2020-09-15 12:19:30,960 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Looking for leaves in component 72d85bca0d096873e15f6ee6d33e2ebd to expand.
+2020-09-15 12:19:30,960 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Component has taxa ['DQ412043_Rm1', 'DQ022305_HKU3_1', 'DQ412042_Rf1', 'NC_004718', 'MT040334_PCoV_GX_P1E', '(MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)', 'MT121216_Pangolin_MP789'].
+2020-09-15 12:19:30,960 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Need to replace (MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13)
+2020-09-15 12:19:30,960 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Expanding (MN908947_Wuhan_Hu_1-MN996532_Bat_RaTG13) using bbb500b337dd29aa69a67c5a64b39984
+2020-09-15 12:19:30,961 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Performing the next expansion.
+2020-09-15 12:19:30,961 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Looking for leaves in component 41907d10bd96caf79f4f86a75c2b76d5 to expand.
+2020-09-15 12:19:30,961 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Component has taxa ['DQ412043_Rm1', 'DQ022305_HKU3_1', 'DQ412042_Rf1', 'NC_004718', 'MT040334_PCoV_GX_P1E', 'MT121216_Pangolin_MP789', 'MN908947_Wuhan_Hu_1', 'MN996532_Bat_RaTG13'].
+2020-09-15 12:19:30,961 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - No leaves found to expand.
+2020-09-15 12:19:30,961 - solver.7ef4d6913f08b58a41f7fdc6f8043547 - INFO - Finished solving
