@@ -1,0 +1,80 @@
+Input data and parameters;;;;;;;Information on trees and preprocessing (if applicable);;;;Information on resulting networks or solutions (if found);;;;;;;
+Version name;Breakpoints;Taxon selection;Trees;Taxa;Branch length threshold;Bootstrap support threshold;Clusters (from ICass);Contracted edges (in total);Resolved multifurcations (in total), from Data Transformer;Unique trees (after resolving multifurcations), from Data Transformer;Tree-child network reticulation number;Semi-temporal network temporal distance;Semi-temporal network hybridization number;MPL reticulation numbers;ICass level;Semi-temporal maximum temporal distance searching;ICass maximum level searching;ICass error
+;Blocks;A;9;12;0.01;;35;15;9;9;9;2;9;4 2 3 2 1;;;5;
+;Blocks;A;9;12;0.01;70;35;19;10;9;9;2;9;1 1 1 0 0;;;5;
+;Blocks;A;9;12;0.01;90;34;24;13;9;9;3;10;2 1 1 0 0;;;6;
+;Blocks;A;9;12;;;39;0;0;9;11;;;5 5 6 5 6;;4;6;
+;Blocks;A;9;12;;70;36;10;8;9;10;3;10;4 2 1 1 1;;;5;
+;Blocks;A;9;12;;90;35;18;12;9;10;3;11;2 0 0 0 0;;;6;
+;Blocks;B;9;9;0.01;;27;4;3;8;8;5;8;2 2 1 2 1;;;6;
+;Blocks;B;9;9;0.01;70;27;8;5;7;8;5;8;9 9 2 9 9;;;6;
+;Blocks;B;9;9;0.01;90;25;10;6;7;7;3;7;8 8 8 8 7;;;6;
+;Blocks;B;9;9;;;28;0;0;9;8;;;4 4 3 4 5;;5;6;
+;Blocks;B;9;9;;70;27;5;4;7;8;5;8;9 9 9 5 7;;;6;
+;Blocks;B;9;9;;90;26;8;7;7;7;3;7;3 2 2 2 2;;;6;
+;Blocks;C;9;7;0.01;;17;0;0;5;4;0;4;5 5 9 8 11;5;;;Error: not all clusters are displayed!
+;Blocks;C;9;7;0.01;70;17;2;2;5;4;0;4;4 2 2 2 1;5;;;Error: not all clusters are displayed!
+;Blocks;C;9;7;0.01;90;17;4;4;4;3;0;4;6 6 6 1 1;4;;;Error: not all clusters are displayed!
+;Blocks;C;9;7;;;17;0;0;5;4;0;4;1 3 2 2 1;5;;;Error: not all clusters are displayed!
+;Blocks;C;9;7;;70;17;2;2;5;4;0;4;4 4 2 4 4;5;;;Error: not all clusters are displayed!
+;Blocks;C;9;7;;90;17;4;4;4;3;0;4;11 11 11 8 9;4;;;Error: not all clusters are displayed!
+;Blocks;A-;9;11;0.01;;30;12;8;7;7;5;7;1 1 1 1 0;;;6;
+;Blocks;A-;9;11;0.01;70;28;21;13;6;5;3;5;0 1 0 0 0;6;;;No error message but Yunnan appears twice
+;Blocks;A-;9;11;0.01;90;28;24;14;7;5;3;5;0 0 0 0 1;;;6;
+;Blocks;A-;9;11;;;34;0;0;8;8;;;1 1 0 5 4;;6;6;
+;Blocks;A-;9;11;;70;29;12;9;7;7;4;7;1 0 0 0 1;6;;;No error message, seems like a correct network
+;Blocks;A-;9;11;;90;28;17;12;7;6;3;6;1 1 0 0 1;;;6;
+;Blocks;B-;9;8;0.01;;19;2;1;5;3;2;3;1 1 0 1 0;;;5;
+;Blocks;B-;9;8;0.01;70;19;6;4;5;3;2;3;1 1 1 1 0;;;5;
+;Blocks;B-;9;8;0.01;90;18;9;6;4;2;0;2;2 1 1 1 0;3;;;No error message but Yunnan appears twice
+;Blocks;B-;9;8;;;19;0;0;5;3;2;3;1 1 1 0 1;;;5;
+;Blocks;B-;9;8;;70;19;4;4;5;3;2;3;3 3 3 0 0;;;5;
+;Blocks;B-;9;8;;90;19;7;6;5;3;2;3;5 5 6 5 5;;;5;
+;Blocks;C-;9;6;0.01;;11;0;0;1;0;0;0;2 1 1 0 0;0;;;
+;Blocks;C-;9;6;0.01;70;11;1;1;1;0;0;0;2 2 2 2 1;0;;;
+;Blocks;C-;9;6;0.01;90;11;2;2;1;0;0;0;1 2 0 1 1;0;;;
+;Blocks;C-;9;6;;;11;0;0;1;0;0;0;2 2 2 2 2;0;;;
+;Blocks;C-;9;6;;70;11;1;1;1;0;0;0;2 2 1 0 1;0;;;
+;Blocks;C-;9;6;;90;11;2;2;1;0;0;0;1 1 0 1 1;0;;;
+;Genes;A;23;12;0.01;;56;43;28;19;;;;3 2 2 3 3;;3;7;
+;Genes;A;23;12;0.01;70;54;65;32;19;;;;0 1 8 0 1;;3;7;
+;Genes;A;23;12;0.01;90;51;84;35;20;;;;7 6 0 0 0;;3;7;
+;Genes;A;23;12;;;79;0;0;23;;;;2 2 3 3 2;;4;7;
+;Genes;A;23;12;;70;62;50;28;22;;;;1 3 3 1 0;;3;7;
+;Genes;A;23;12;;90;56;72;32;21;;;;5 5 3 4 3;;3;6;
+;Genes;B;24;9;0.01;;33;13;11;18;12;;;7 8 3 3 3;;4;7;
+;Genes;B;24;9;0.01;70;32;35;21;19;11;;;5 4 4 4 4;;4;7;
+;Genes;B;24;9;0.01;90;31;48;28;18;11;;;9 9 9 9 2;;4;7;
+;Genes;B;24;9;;;36;0;0;20;13;;;3 3 3 3 3;;3;7;
+;Genes;B;24;9;;70;34;29;19;22;13;;;2 2 2 2 2;;4;6;
+;Genes;B;24;9;;90;33;44;27;19;13;;;1 2 6 1 3;;4;7;
+;Genes;C;24;7;0.01;;21;5;4;9;8;6;8;3 8 8 5 8;;;6;
+;Genes;C;24;7;0.01;70;20;15;12;8;7;4;7;3 3 3 4 4;;;6;
+;Genes;C;24;7;0.01;90;20;24;18;8;7;4;7;1 2 1 3 1;;;6;
+;Genes;C;24;7;;;22;0;0;10;9;;;7 6 6 6 2;;6;6;
+;Genes;C;24;7;;70;21;13;10;9;8;6;8;5 5 5 1 1;;;6;
+;Genes;C;24;7;;90;21;22;16;9;8;6;8;2 6 2 3 2;;;6;
+;Genes;A-;23;11;0.01;;48;34;23;16;;;;6 6 6 6 8;;3;7;
+;Genes;A-;23;11;0.01;70;42;54;29;15;;;;0 0 0 1 1;;3;7;
+;Genes;A-;23;11;0.01;90;38;75;35;12;;;;1 1 2 2 1;;4;7;
+;Genes;A-;23;11;;;62;0;0;21;;;;0 2 3 3 3;;2;7;
+;Genes;A-;23;11;;70;48;40;25;17;;;;5 5 5 4 1;;3;7;
+;Genes;A-;23;11;;90;45;63;35;17;;;;2 1 1 1 0;;3;7;
+;Genes;B-;24;8;0.01;;22;10;9;10;6;6;6;1 1 1 1 2;;;6;
+;Genes;B-;24;8;0.01;70;21;20;15;8;5;4;5;1 0 1 0 0;;;5;
+;Genes;B-;24;8;0.01;90;21;33;25;8;5;4;5;0 0 0 2 3;;;5;
+;Genes;B-;24;8;;;23;0;0;12;7;7;7;1 1 1 0 1;;;6;
+;Genes;B-;24;8;;70;21;15;12;9;6;5;6;4 1 1 1 0;;;5;
+;Genes;B-;24;8;;90;21;29;23;9;6;5;6;5 2 5 2 3;;;5;
+;Genes;C-;24;6;0.01;;11;1;1;1;0;0;0;1 1 1 1 0;0;;;
+;Genes;C-;24;6;0.01;70;11;6;5;1;0;0;0;6 1 1 0 1;0;;;
+;Genes;C-;24;6;0.01;90;11;10;8;1;0;0;0;1 1 1 0 2;0;;;
+;Genes;C-;24;6;;;11;0;0;1;0;0;0;5 8 7 7 7;0;;;
+;Genes;C-;24;6;;70;11;6;5;1;0;0;0;2 2 2 0 1;0;;;
+;Genes;C-;24;6;;90;11;10;8;1;0;0;0;3 2 1 3 0;0;;;
+;;;;;;;;;;;;;;;;;;
+;;;Note: with the sequence selections of 12 and 11 taxa, for one gene no tree was built because for one taxon this gene did not exist. Therefore the number of trees is 23 instead of 24 (this taxon is excluded in the smaller sequence selections);;;;;;;;;;;;;;;
+;;;;;;;;;Note: the same multifurcation appearing in multiple trees is counted as one resolved multifurcation;;;;;;;;;
+;;;;;;;;;;;;;;Note: for PhyloNet MPL and ICass I used the nonbinary trees as input, so not the binary trees that resulted from resolving multifurcations;;;;
+;;;;;;;;;;;;;;;;Note: there might have been differences in available CPU for different inputs, not sure if they significantly influenced the maximum searching values;;
+;;;;;;;;;;;;;;;;Note: maximum value means last value that algorithm was searching for (runtime 5 minutes);;
