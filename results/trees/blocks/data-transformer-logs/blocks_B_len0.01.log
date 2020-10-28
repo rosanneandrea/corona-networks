@@ -1,0 +1,15 @@
+Parsing input trees: 0Parsing input trees: 1Parsing input trees: 2Parsing input trees: 3Parsing input trees: 4Parsing input trees: 5Parsing input trees: 6Parsing input trees: 7Parsing input trees: 8
+Counting leaf frequencies
+Selecting leaves and trees that contain them
+Pruning selected trees to selected leaves
+Resolving multifurcations
+Discarding duplicate trees
+Number of input trees:               9
+Number of input labels:              9
+Number of output trees:              8
+Number of output labels:             9
+Number of resolved multifurcations:  3
+Minimum output node degree:          2
+Maximum output node degree:          2
+Output trees have chosen label set:  True
+Output trees are valid restrictions: True
