@@ -1,3 +1,5 @@
+Folders contain output files (or files created from output) from the different phylogenetic network algorithms
+
 Files are named as follows:
   -- blocks/genes indicate the breakpoints
   -- A, B, C, Aminus, Bminus, Cminus indicate taxon selections
