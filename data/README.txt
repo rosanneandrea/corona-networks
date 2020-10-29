@@ -1,5 +1,3 @@
-  -- taxon_selections folder contains text files with sequences that were excluded for each taxon selection
-
 MSA files
   -- Corona_original_all.mafft.nex is an MSA with 300 genomes including annotation of deleted regions from Grimm and Morrison
   -- Corona.ph.epf is the MSA with 21 genomes from Grimm and Morrison
@@ -8,3 +6,4 @@ MSA files
 Other
   -- Corona_distance_matrix.xlsx from Grimm and Morrison has distance matrix used to decide on taxon selections
   -- MSA_annotation_deleted_regions.txt (extracted from Corona_original_all.mafft.nex) was used to transfer annotations from SARS-CoV-2 (gene_annotations_all_sarscov2.txt) to the MSA (gene_annotations_all_MSA.txt)
+  -- taxon_selections folder contains text files with sequences that were excluded for each taxon selection
